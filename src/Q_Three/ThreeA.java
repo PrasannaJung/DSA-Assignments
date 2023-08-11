@@ -1,4 +1,6 @@
-public class MaxPointsFromShootingTargets {
+package Q_Three;
+
+public class ThreeA {
     public static int maxPoints(int[] a) {
         int n = a.length;
         int[] paddedTargets = new int[n + 2];

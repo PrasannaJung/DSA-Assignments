@@ -1,9 +1,11 @@
+package Q_Two;
+
 import java.util.*;
 
-public class RandomWhitelistedPort {
+public class TwoB {
     private List<Integer> whitelistedPorts;
 
-    public RandomWhitelistedPort(int k, int[] blacklisted_ports) {
+    public TwoB(int k, int[] blacklisted_ports) {
         whitelistedPorts = new ArrayList<>();
 
         // Generate the list of whitelisted ports
@@ -23,7 +25,7 @@ public class RandomWhitelistedPort {
     public static void main(String[] args) {
         int k = 7;
         int[] blacklisted_ports = {2, 3, 5};
-        RandomWhitelistedPort randomPort = new RandomWhitelistedPort(k, blacklisted_ports);
+        TwoB randomPort = new TwoB(k, blacklisted_ports);
 
         System.out.println(randomPort.get()); // Output: Random whitelisted port between 0 and 6
         System.out.println(randomPort.get()); // Output: Random whitelisted port between 0 and 6

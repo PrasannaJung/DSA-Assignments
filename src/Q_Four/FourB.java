@@ -1,4 +1,6 @@
-public class BrothersBinaryTree {
+package Q_Four;
+
+public class FourB {
     static class TreeNode {
         int val;
         TreeNode left;
@@ -45,7 +47,7 @@ public class BrothersBinaryTree {
         int x = 4;
         int y = 3;
 
-        BrothersBinaryTree solution = new BrothersBinaryTree();
+        FourB solution = new FourB();
         boolean result = solution.areBrothers(root, x, y);
         System.out.println("Nodes " + x + " and " + y + " are brothers: " + result);
     }

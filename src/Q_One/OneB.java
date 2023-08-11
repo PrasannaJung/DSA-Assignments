@@ -1,11 +1,14 @@
+package Q_One;
+
 import java.util.Arrays;
 
-public class PathaoCoins {
+public class OneB {
     public static void main(String[] args) {
         int[] ratings = {1, 0, 2};
         int minimumCoins = minimumCoins(ratings);
         System.out.println("Minimum number of coins required: " + minimumCoins);
     }
+
     public static int minimumCoins(int[] ratings) {
         int n = ratings.length;
         int[] coins = new int[n];

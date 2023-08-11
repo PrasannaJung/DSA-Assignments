@@ -1,6 +1,8 @@
+package Q_Four;
+
 import java.util.*;
 
-public class MinStepsToCompleteTasks {
+public class FourA {
 
     public static int minSteps(int N, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();

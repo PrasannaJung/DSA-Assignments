@@ -1,6 +1,8 @@
+package Q_Two;
+
 import java.util.Arrays;
 
-public class LongestSubsequence {
+public class TwoA {
 
     public static void main(String[] args) {
         int[] nums = {8, 5, 4, 2, 1, 4, 3, 4, 3, 1, 15};

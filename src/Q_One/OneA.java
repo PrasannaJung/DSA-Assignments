@@ -1,4 +1,6 @@
-public class ClothingCost {
+package Q_One;
+
+public class OneA {
     public static void main(String[] args) {
         int[][] price = {
                 {14, 4, 11},

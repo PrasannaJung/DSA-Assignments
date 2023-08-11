@@ -1,7 +1,9 @@
+package Q_Five;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReorientConnections {
+public class FiveB {
 
     static List<List<Integer>> graph;
     static boolean[] visited;
